@@ -47,46 +47,18 @@ body {
     font-size: 75px;
 }
 
-#containerNew {
-    background-color: rgb(73, 73, 73);
-    position: relative;
-    margin: 75px auto;
-    height: 400px;
-    width: 700px;
+#sceneText {
+    color: white;
+    border: 3px solid white;
+    padding: 10px;
 }
 
-#userAge {
+#stopCar {
     position: absolute;
-    top: 50%;
+    top: 90%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    width: 100px;
+    height: 50px;
 }
-
-#inputLabel {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-#inputP {
-    position: absolute;
-    top: 43%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: rgb(0, 0, 0);
-}
-
-#submit {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
